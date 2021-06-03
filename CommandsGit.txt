@@ -1,0 +1,56 @@
+    1  git init
+    2  git remote add origin "https://github.com/shashankwandre/devops-github.git"
+    3  git pull origin master
+    4  git remote add origin "https://github.com/shashankwandre/devops-github.git"
+    5  git pull origin master
+    6  clear
+    7  git status
+    8  git add .
+    9  git status
+   10  git commit -m "1st file to commit"
+   11  git config --global user.email "shashankwandre@gmail.com"
+   12  git config --global user.name "Shashank"
+   13  git commit -m "My First commit"
+   14  git status
+   15  git status
+   16  git add .
+   17  git status
+   18  git commit -a -m "Adding files"
+   19  clear
+   20  git log
+   21  git push origin master
+   22  history
+   23  git branch firstbranch
+   24  git checkout firstbranch
+   25  git add .
+   26  git commit -m "New Files"
+   27  ls
+   28  git checkout master
+   29  ls
+   30  git commit .
+   31  git push origin master
+   32  git merge firstbranch
+   33  ls
+   34  git push origin master
+   35  git status
+   36  git pull origin master
+   37  git checkout firstbranch
+   38  git add .
+   39  git status
+   40  git commit . -m "Newfiles"
+   41  ls
+   42  git checkout master
+   43  ls
+   44  history
+   45  git checkout master
+   46  ls
+   47  git checkout firstbranch
+   48  git rebase master
+   49  git checkout master
+   50  git rebase firstbranch
+   51  ls
+   52  git push origin master
+   53  ssh-keygen
+   54  ls
+   55  cat ssh1.pub
+   56  history
